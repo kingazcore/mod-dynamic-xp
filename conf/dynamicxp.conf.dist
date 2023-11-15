@@ -14,7 +14,7 @@
 #                             0  (Reset custom XP rate to default on that level range)
 #
 
-Dynamic.XP.Rate.Announce = 1
+Dynamic.XP.Rate.Announce = 0
 
 Dynamic.XP.Rate = 1
 

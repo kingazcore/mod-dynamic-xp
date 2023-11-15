@@ -24,7 +24,7 @@ public:
         }
     }
 
-    void OnGivePlayerXP(Player* player, uint32& amount, Unit* /*victim*/)
+    void OnGivePlayerXP(Player* player, uint32& amount, Unit* /*victim*/, uint8 /*xpSource*/)
     {
         if (sConfigMgr->GetOption<bool>("Dynamic.XP.Rate", true))
         {
